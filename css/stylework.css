@@ -1,0 +1,151 @@
+style
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+
+  }
+  header {
+    background-color: #373738;
+    padding: 0px;
+
+  }
+  header ul {
+    float: right;
+    color: white;
+    font-weight: 700;
+    font-style: 1.5em;
+    font-family: 'Outfit', Arial, sans-serif;
+    margin-top: 32px;
+    padding-right: 32px;
+  }
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color: #FFED98;
+}
+
+  header li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  header p {
+    display: inline-block;
+
+  }
+/*content below navigartion starts here*/
+
+  .content {
+    max-width: 100%;
+    margin: 0;
+    padding: 40px;
+    background-color: #E8ECEF;
+ }
+
+  h1 {
+    font-family: 'Outfit', Arial, sans-serif;
+    font: weight 700px;;
+    font-style:normal;
+    font-size: 3em;
+    float: left;
+    padding-left: 25px;
+    margin-top: 50px;
+    }
+
+h2 {
+        font-family: 'Poppins', Arial, sans-serif;
+        font-weight: 400;
+        font-style:normal;
+        font-size: 2em;
+        text-align: right;
+        margin-top: 150px;
+        margin-bottom: 150px;
+     }
+h3 {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-weight: 500;
+      font-style:normal;
+      font-size: 2em;
+      text-align: right;
+   }
+
+
+#projectGridArea {
+  margin: 20,30;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "stuyCard stuyCard skillsArea"
+  "doeCard doeCard skillsArea"
+  "uwCard uwCard skillsArea";
+}
+#projectGridArea div {
+  height: 150px;
+}
+#stuyCard {
+grid-area: stuyCard;
+background-image:url("../images/Stuy\ header.png");
+background-size: cover;
+max-height: 100%;
+}
+
+#doeCard {
+  grid-area: doeCard;
+  background-image:url("../images/lightbulb\ header.png");
+  background-size: cover;max-height: 100%;}
+
+#uwCard {
+  grid-area: uwCard;
+  background-image:url("../images/umami\ header.png");
+  max-height: 100%;}
+
+  .heading {
+    text-align: right;
+      font-family: 'Poppins', Arial, sans-serif;
+      font-weight: 600;
+      font-style:normal;
+      font-size: 1.3em;     
+      color: black;
+      background-color: rgba(191, 200, 204, 0.5);
+    }
+    
+
+/* footer */
+  
+  footer {
+    background-color: #BBC7CE;
+    height: 150px;
+  
+  }
+
+  footer ul {
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 0px;
+  text-align: left;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+  font-style:normal;
+  font-size: 1em;
+  color: white;
+}
+
+  li {
+    margin: 10px 0;
+  }
+
+    footerWM {
+     position: fixed;
+     right: 0px; bottom: 0px;
+     width: 100px;
+     height: 40px;
+ }
+
